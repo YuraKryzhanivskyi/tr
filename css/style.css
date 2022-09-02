@@ -329,6 +329,7 @@ body._scroll .header__container {
 }
 
 .select-lang select {
+  color: black;
   background: none;
   border: 1px solid rgba(0, 0, 0, 0.6);
   -webkit-appearance: none;
@@ -402,7 +403,7 @@ footer {
 }
 
 .no-webp .home__pic {
-  background-image: url("../img/1.jpg"); }
+  background-image: url("../img/01.jpg"); }
 
 .home__pic {
   display: block;
@@ -410,7 +411,7 @@ footer {
   min-height: 450px;
   flex: 0 0 55%;
   background-size: cover;
-  background-position: center;
+  background-position: right;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 20% 10%;
 }
@@ -722,6 +723,7 @@ footer {
   font-weight: 700;
   color: black;
   line-height: 1.2;
+  padding-right: 20px;
 }
 
 .about-box__link:hover {
@@ -1259,4 +1261,4 @@ footer {
   }
 }
 
-.webp .home__pic { background-image: url(../img/1.webp); }
+.webp .home__pic { background-image: url(../img/01.webp); }
