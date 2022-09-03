@@ -740,6 +740,7 @@ footer {
 
 .report {
   padding: clamp(1.875rem, 0.284rem + 7.95vw, 6.25rem) 0;
+  background: #fff;
 }
 
 .report__title {
@@ -752,7 +753,7 @@ footer {
 }
 
 .item-report {
-  min-width: 280px;
+  min-width: 320px;
 }
 
 .item-report__body {
@@ -781,7 +782,6 @@ footer {
   border-top: 1px solid rgba(0, 0, 0, 0.6);
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 15px 0px;
 }
 
