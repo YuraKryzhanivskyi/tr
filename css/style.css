@@ -588,9 +588,8 @@ footer {
 
 .about__left {
   flex: 0 0 25%;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+  -ms-grid-row-align: start;
+      align-self: start;
 }
 
 .about__right {
@@ -602,6 +601,14 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  width: 290px;
+}
+
+.about__left._fixed .about__navigation {
+  position: fixed;
+  top: 60px;
+  z-index: 2;
+  padding-top: 5px;
 }
 
 .about__navigation-item {
@@ -1210,9 +1217,19 @@ footer {
     flex-direction: column;
   }
 
+  .about__left._fixed .about__navigation {
+    left: 0;
+    background-color: #f2f2f2;
+    padding-left: 10px;
+    padding-bottom: 5px;
+  }
+
   .about__navigation {
     flex-direction: row;
-    margin-bottom: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    width: 100%;
+    padding-right: 0;
   }
 
   .report__body {
